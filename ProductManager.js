@@ -130,30 +130,3 @@ module.exports = ProductManager
 
 
 
-/**
-const manager = new ProductManager
-console.log(manager.getProducts());
-
-//Agregamos Productos a nuestro arreglo
-
-manager.addProduct("Shampoo", "Con ph neutro para toda la carroceria", 500, "img", "shp252", 1)
-manager.addProduct("Acondicionador", "para el interior del auto", 700, "img", "aco262", 2)
-//Llamamos al arreglo para visualizar el producto agregado
-console.log(manager.getProducts());
-
-//Verificamos en caso de que el codigo se repita
-
-manager.addProduct("Acondicionador", "para el interior del auto", 700, "img", "shp252", 1)
-console.log(manager.getProducts());
-
-//Verifico ID
-manager.getProductById(2)
-
-//Verifico ID no encontrado
-manager.getProductById(3)
-
-//Agrego un producto con faltante de campo obligatorio
-
-manager.addProduct("", "para el interior del auto", "img", "shp252", 1)
-
- */
