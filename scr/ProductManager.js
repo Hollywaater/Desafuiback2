@@ -76,7 +76,7 @@ async upDateProduct(id,produModi){
     try{
 const productos = await this.leerArchivo()
 
-const indice = productos.find(produ => produ.id === id)
+const indice = productos.IndexOf(produ => produ.id === id)
 if(indice !== -1){
     productos.splice(indice, 1, produModi)
     await this.guardarProducto(productos)
